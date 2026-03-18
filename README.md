@@ -20,11 +20,11 @@ Estudante de Ciência da Computação na UNIFACS (2022–2026) com experiência 
 
 ### Projetos
 
-🔹 **[contact-manager-api](https://github.com/LeywinDias/contact-manager-api)** — API REST para gerenciamento de contatos pessoais. CRUD completo com validações, tratamento de erros e busca por palavra-chave.
+🔹 **[contact-manager-api](https://github.com/Gudoourado/contact-manager-api)** — API REST para gerenciamento de contatos pessoais. CRUD completo com validações, tratamento de erros e busca por palavra-chave.
 
-🔹 **[movie-catalog-api](https://github.com/LeywinDias/movie-catalog-api)** — Catálogo de filmes com sistema de avaliações. Relacionamento entre entidades (1:N), filtros por gênero/diretor e cálculo de média de notas.
+🔹 **[movie-catalog-api](https://github.com/Gudoourado/movie-catalog-api)** — Catálogo de filmes com sistema de avaliações. Relacionamento entre entidades (1:N), filtros por gênero/diretor e cálculo de média de notas.
 
-🔹 **[personal-finance-api](https://github.com/LeywinDias/personal-finance-api)** — Controle de finanças pessoais com categorias, transações de receita/despesa, filtros por data e resumo financeiro com agregação.
+🔹 **[personal-finance-api](https://github.com/Gudoourado/personal-finance-api)** — Controle de finanças pessoais com categorias, transações de receita/despesa, filtros por data e resumo financeiro com agregação.
 
 > Todos os projetos utilizam **Java 17, Spring Boot 3.2, Spring Data JPA, PostgreSQL** e seguem o padrão MVC com DTOs e tratamento global de exceções.
 

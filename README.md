@@ -32,7 +32,7 @@ Estudante de Ciência da Computação na UNIFACS (2022–2026), com experiência
 ## 📫 Contato
 
 [![Email](https://img.shields.io/badge/Email-Gustavoaureliodev@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Gustavoaureliodev@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gustavo_Dourado-0A66C2?style=flat-square&logo=linkedin&logoColor=white)]([https://linkedin.com/in/SEU-LINKEDIN](https://www.linkedin.com/in/gustavodoourado/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gustavo_Dourado-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavodoourado/)
 
 ---
 

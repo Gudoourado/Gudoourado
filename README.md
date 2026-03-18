@@ -37,4 +37,3 @@ Estudante de Ciência da Computação na UNIFACS (2022–2026), com experiência
 ---
 
 💡 *Sempre aprendendo e construindo. Aberto a oportunidades como Desenvolvedor Backend Jr.*
-[README.md](https://github.com/user-attachments/files/26071769/README.md)

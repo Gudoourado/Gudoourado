@@ -1,36 +1,37 @@
 # Gustavo Dourado
 
-**Desenvolvedor Backend Jr** | Java | Spring Boot | PostgreSQL
+**Desenvolvedor back-end** · TypeScript · Node.js · PostgreSQL
 
-Estudante de Ciência da Computação na UNIFACS (2022–2026) com experiência em suporte de TI no Brasil e na Irlanda. Focado em desenvolvimento backend, APIs REST e boas práticas de programação. Busco minha primeira oportunidade como Desenvolvedor Backend Jr.
+Desenvolvo aplicações back-end com foco em integrações, processamento assíncrono e recuperação de falhas: webhook que chega repetido, job que cai no meio, integração que responde tarde.
 
----
-
-### Tecnologias e ferramentas
-
-![Java](https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+🇬🇧 *Backend developer focused on TypeScript, Node.js and PostgreSQL: integrations, async processing and failure recovery. Open to remote roles.*
 
 ---
 
-### Projetos
+### Projeto em destaque
 
-🔹 **[contact-manager-api](https://github.com/Gudoourado/contact-manager-api)** — API REST para gerenciamento de contatos pessoais. CRUD completo com validações, tratamento de erros e busca por palavra-chave.
+**[Agente Volta Zero](https://github.com/Gudoourado/agente-volta-zero)** · primeiro atendimento com IA
+Equipes de suporte gastam a maior parte do tempo com dúvidas repetitivas. O agente responde as de nível 1 pela base de conhecimento e, quando a confiança da busca fica abaixo do limite, abre um ticket estruturado para um humano, com resumo, tom do cliente e próximos passos.
+`Python` `LLM` `tool calling` · **[demo ao vivo](https://agente-volta-zero-kdhup6wqnhtgphtgnyptp6.streamlit.app/)**
 
-🔹 **[movie-catalog-api](https://github.com/Gudoourado/movie-catalog-api)** — Catálogo de filmes com sistema de avaliações. Relacionamento entre entidades (1:N), filtros por gênero/diretor e cálculo de média de notas.
+### Em desenvolvimento (código privado)
 
-🔹 **[personal-finance-api](https://github.com/Gudoourado/personal-finance-api)** — Controle de finanças pessoais com categorias, transações de receita/despesa, filtros por data e resumo financeiro com agregação.
+**Financeiro** · finanças pessoais via Open Finance
+Importa conta e cartão do banco pela Pluggy e mostra para onde foi o dinheiro no mês. Fila de jobs no Postgres com arrendamento, isolamento por usuário com RLS e login com TOTP.
+`Next.js` `TypeScript` `PostgreSQL` `Vitest`
 
-> Todos os projetos utilizam **Java 17, Spring Boot 3.2, Spring Data JPA, PostgreSQL** e seguem o padrão MVC com DTOs e tratamento global de exceções.
+**Cérebro** · memória para agentes de IA
+Injeta regras e lições no contexto do Claude Code a cada prompt e se abstém quando nada é relevante, com log de cada decisão e um conjunto de avaliação (recall@3, alarme falso).
+`Node.js` `Obsidian`
+
+Os dois serão publicados depois de uma revisão de segurança. Até lá, mostro o código numa conversa.
 
 ---
+
+### Formação
+
+Ciência da Computação · UNIFACS
 
 ### Contato
 
-[![Email](https://img.shields.io/badge/Email-Gustavoaureliodev@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Gustavoaureliodev@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gustavo_Dourado-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavodoourado/)
+[LinkedIn](https://www.linkedin.com/in/gustavodoourado/) · [gustavoaureliodev@gmail.com](mailto:gustavoaureliodev@gmail.com)

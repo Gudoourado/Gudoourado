@@ -1,0 +1,33 @@
+# Regera os painéis do README (perfil/*.svg) com os números públicos do GitHub, uma vez por dia.
+name: Painéis do perfil
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/scripts/**", ".github/workflows/perfil.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: npm install --prefix .github/scripts --no-audit --no-fund
+      - run: node .github/scripts/gerar-perfil.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add perfil
+          git diff --cached --quiet || git commit -m "Atualiza os painéis do perfil"
+          git push

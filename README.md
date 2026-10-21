@@ -1,37 +1,29 @@
 # Gustavo Dourado
 
-**Desenvolvedor back-end** · TypeScript · Node.js · PostgreSQL
+**Desenvolvedor full stack com foco em back-end.** TypeScript, NestJS, Angular e PostgreSQL.
 
-Desenvolvo aplicações back-end com foco em integrações, processamento assíncrono e recuperação de falhas: webhook que chega repetido, job que cai no meio, integração que responde tarde.
+Desde abril de 2026, faço estágio full stack na Sunter Tecnologia, com entregas de CRM, pesquisa NPS com envio automático, login único (SSO) e agentes de IA. Também atendo clientes como freelancer.
 
-🇬🇧 *Backend developer focused on TypeScript, Node.js and PostgreSQL: integrations, async processing and failure recovery. Open to remote roles.*
+📍 Salvador, BA · busco vaga híbrida em São Paulo ou remota.
 
----
+[Portfólio](https://gustavo-dourado.gustavoaureliodev.workers.dev/) · [LinkedIn](https://www.linkedin.com/in/gustavodoourado/) · [E-mail](mailto:gustavoaureliodev@gmail.com)
 
-### Projeto em destaque
+## Projetos em destaque
 
-**[Agente Volta Zero](https://github.com/Gudoourado/agente-volta-zero)** · primeiro atendimento com IA<br>
-Equipes de suporte gastam a maior parte do tempo com dúvidas repetitivas. O agente responde as de nível 1 pela base de conhecimento e, quando a confiança da busca fica abaixo do limite, abre um ticket estruturado para um humano, com resumo, tom do cliente e próximos passos.<br>
-`Python` `LLM` `tool calling` · **[demo ao vivo](https://agente-volta-zero-kdhup6wqnhtgphtgnyptp6.streamlit.app/)**
+| Projeto | O que prova |
+|---|---|
+| **[Portfólio com assistente](https://gustavo-dourado.gustavoaureliodev.workers.dev/)** | Um assistente de IA que responde recrutadores só com documentos aprovados, cita a fonte de cada frase e publica a própria avaliação. Cloudflare Workers + D1. |
+| **[financeiro-rls](https://github.com/Gudoourado/financeiro-rls)** | Isolamento por usuário com Row Level Security no PostgreSQL, testado e medido com `EXPLAIN ANALYZE`. |
+| **[Agente Volta Zero](https://github.com/Gudoourado/agente-volta-zero)** | Atendimento de nível 1 com IA que passa para um humano, com o ticket pronto, quando a busca não tem confiança. [Demo](https://agente-volta-zero-kdhup6wqnhtgphtgnyptp6.streamlit.app/). |
+| **[cerebro-avaliacao](https://github.com/Gudoourado/cerebro-avaliacao)** | Como avaliar uma busca BM25+ com casos sintéticos, piso de score e resultado caso a caso. |
+| **APIs Java** · [finanças](https://github.com/Gudoourado/personal-finance-api) · [filmes](https://github.com/Gudoourado/movie-catalog-api) · [contatos](https://github.com/Gudoourado/contact-manager-api) | Java 17 + Spring Boot 3, erros tratados de forma consistente, testes e CI em Java 17 e 21. |
 
-### Em desenvolvimento (código privado)
+## Stack
 
-**Financeiro** · finanças pessoais via Open Finance<br>
-Importa conta e cartão do banco pela Pluggy e mostra para onde foi o dinheiro no mês. Fila de jobs no Postgres com arrendamento, isolamento por usuário com RLS e login com TOTP.<br>
-`Next.js` `TypeScript` `PostgreSQL` `Vitest`
+**Principal:** TypeScript · Node.js · NestJS · Angular · PostgreSQL · Prisma · Redis · Docker
+**Também uso:** Java com Spring Boot · Python · Next.js · GitHub Actions · Cloudflare
 
-**Cérebro** · memória para agentes de IA<br>
-Injeta regras e lições no contexto do Claude Code a cada prompt e se abstém quando nada é relevante, com log de cada decisão e um conjunto de avaliação (recall@3, alarme falso).<br>
-`Node.js` `Obsidian`
+## Formação e idiomas
 
-Os dois serão publicados depois de uma revisão de segurança. Até lá, mostro o código numa conversa.
-
----
-
-### Formação
-
-Ciência da Computação · UNIFACS
-
-### Contato
-
-[LinkedIn](https://www.linkedin.com/in/gustavodoourado/) · [gustavoaureliodev@gmail.com](mailto:gustavoaureliodev@gmail.com)
+- Ciência da Computação, UNIFACS · conclusão no fim de 2026
+- Português nativo · inglês intermediário avançado, com 7 meses de suporte em inglês na Irlanda

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="56 contribuições públicas nos últimos 12 meses"><style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="57 contribuições públicas nos últimos 12 meses"><style>
   .cursor { animation: cur 1s steps(1) infinite; } @keyframes cur { 50% { opacity: 0; } }
   .sobe { animation: sobe 1.2s ease-out both; transform-box: fill-box; transform-origin: bottom; } @keyframes sobe { from { transform: scaleY(0); } }
   @media (prefers-reduced-motion: reduce) { .cursor, .sobe { animation: none; } }
@@ -9,7 +9,7 @@
   <text x="600" y="27" fill="#a8b3c7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="15" text-anchor="middle">A cidade que construí este ano</text>
   <text x="1180" y="27" fill="#a8b3c7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="14" text-anchor="end">~/contribuicoes</text>
   <line x1="0" y1="42" x2="1200" y2="42" stroke="#30363d" stroke-width="1"/>
-  <text x="40" y="96" fill="#e6edf3" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="20"><tspan fill="#7ee787" font-weight="700">56</tspan> contribuições públicas · 7 dias ativos</text>
+  <text x="40" y="96" fill="#e6edf3" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="20"><tspan fill="#7ee787" font-weight="700">57</tspan> contribuições públicas · 7 dias ativos</text>
   <text x="40" y="132" fill="#a8b3c7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="15">o trabalho do estágio fica em repositórios privados</text>
   <text x="40" y="160" fill="#a8b3c7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="15">atualizado diariamente</text>
   <g>
@@ -445,9 +445,9 @@
       <path d="M856 108.6 L862 110.8 L862 112.8 L856 110.6 Z" fill="rgb(16,19,24)"/>
       <path d="M862 110.8 L868 108.6 L868 110.6 L862 112.8 Z" fill="rgb(11,14,18)"/>
       <path d="M862 106.39999999999999 L868 108.6 L862 110.8 L856 108.6 Z" fill="#161b22"/></g><g class="sobe">
-      <path d="M868 79.71764705882353 L874 81.91764705882353 L874 112.8 L868 110.6 Z" fill="rgb(53,160,92)"/>
-      <path d="M874 81.91764705882353 L880 79.71764705882353 L880 110.6 L874 112.8 Z" fill="rgb(38,115,67)"/>
-      <path d="M874 77.51764705882353 L880 79.71764705882353 L874 81.91764705882353 L868 79.71764705882353 Z" fill="#4ade80"/></g><g>
+      <path d="M868 82.07058823529411 L874 84.27058823529411 L874 112.8 L868 110.6 Z" fill="rgb(53,160,92)"/>
+      <path d="M874 84.27058823529411 L880 82.07058823529411 L880 110.6 L874 112.8 Z" fill="rgb(38,115,67)"/>
+      <path d="M874 79.87058823529411 L880 82.07058823529411 L874 84.27058823529411 L868 82.07058823529411 Z" fill="#4ade80"/></g><g>
       <path d="M880 108.6 L886 110.8 L886 112.8 L880 110.6 Z" fill="rgb(16,19,24)"/>
       <path d="M886 110.8 L892 108.6 L892 110.6 L886 112.8 Z" fill="rgb(11,14,18)"/>
       <path d="M886 106.39999999999999 L892 108.6 L886 110.8 L880 108.6 Z" fill="#161b22"/></g><g>
@@ -463,9 +463,9 @@
       <path d="M850 110.80000000000001 L856 113.00000000000001 L856 115.00000000000001 L850 112.80000000000001 Z" fill="rgb(16,19,24)"/>
       <path d="M856 113.00000000000001 L862 110.80000000000001 L862 112.80000000000001 L856 115.00000000000001 Z" fill="rgb(11,14,18)"/>
       <path d="M856 108.60000000000001 L862 110.80000000000001 L856 113.00000000000001 L850 110.80000000000001 Z" fill="#161b22"/></g><g class="sobe">
-      <path d="M862 91.3294117647059 L868 93.5294117647059 L868 115.00000000000001 L862 112.80000000000001 Z" fill="rgb(34,125,68)"/>
-      <path d="M868 93.5294117647059 L874 91.3294117647059 L874 112.80000000000001 L868 115.00000000000001 Z" fill="rgb(24,90,49)"/>
-      <path d="M868 89.12941176470589 L874 91.3294117647059 L868 93.5294117647059 L862 91.3294117647059 Z" fill="#2fae5f"/></g><g>
+      <path d="M862 88.9764705882353 L868 91.1764705882353 L868 115.00000000000001 L862 112.80000000000001 Z" fill="rgb(34,125,68)"/>
+      <path d="M868 91.1764705882353 L874 88.9764705882353 L874 112.80000000000001 L868 115.00000000000001 Z" fill="rgb(24,90,49)"/>
+      <path d="M868 86.7764705882353 L874 88.9764705882353 L868 91.1764705882353 L862 88.9764705882353 Z" fill="#2fae5f"/></g><g>
       <path d="M874 110.80000000000001 L880 113.00000000000001 L880 115.00000000000001 L874 112.80000000000001 Z" fill="rgb(16,19,24)"/>
       <path d="M880 113.00000000000001 L886 110.80000000000001 L886 112.80000000000001 L880 115.00000000000001 Z" fill="rgb(11,14,18)"/>
       <path d="M880 108.60000000000001 L886 110.80000000000001 L880 113.00000000000001 L874 110.80000000000001 Z" fill="#161b22"/></g><g>
@@ -1105,9 +1105,9 @@
       <path d="M1036 179 L1042 181.2 L1042 183.2 L1036 181 Z" fill="rgb(16,19,24)"/>
       <path d="M1042 181.2 L1048 179 L1048 181 L1042 183.2 Z" fill="rgb(11,14,18)"/>
       <path d="M1042 176.8 L1048 179 L1042 181.2 L1036 179 Z" fill="#161b22"/></g><g class="sobe">
-      <path d="M1048 159.52941176470588 L1054 161.72941176470587 L1054 183.2 L1048 181 Z" fill="rgb(34,125,68)"/>
-      <path d="M1054 161.72941176470587 L1060 159.52941176470588 L1060 181 L1054 183.2 Z" fill="rgb(24,90,49)"/>
-      <path d="M1054 157.3294117647059 L1060 159.52941176470588 L1054 161.72941176470587 L1048 159.52941176470588 Z" fill="#2fae5f"/></g><g>
+      <path d="M1048 157.1764705882353 L1054 159.3764705882353 L1054 183.2 L1048 181 Z" fill="rgb(34,125,68)"/>
+      <path d="M1054 159.3764705882353 L1060 157.1764705882353 L1060 181 L1054 183.2 Z" fill="rgb(24,90,49)"/>
+      <path d="M1054 154.97647058823532 L1060 157.1764705882353 L1054 159.3764705882353 L1048 157.1764705882353 Z" fill="#2fae5f"/></g><g>
       <path d="M1018 181.20000000000002 L1024 183.4 L1024 185.4 L1018 183.20000000000002 Z" fill="rgb(16,19,24)"/>
       <path d="M1024 183.4 L1030 181.20000000000002 L1030 183.20000000000002 L1024 185.4 Z" fill="rgb(11,14,18)"/>
       <path d="M1024 179.00000000000003 L1030 181.20000000000002 L1024 183.4 L1018 181.20000000000002 Z" fill="#161b22"/></g><g>

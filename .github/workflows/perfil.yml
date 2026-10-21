@@ -1,9 +1,9 @@
-# Regera o cabeçalho do README (perfil/cabecalho.svg) com a foto atual do perfil, uma vez por semana.
-name: Cabeçalho do perfil
+# Regera os painéis do README (perfil/*.svg) com os números públicos do GitHub, uma vez por dia.
+name: Painéis do perfil
 
 on:
   schedule:
-    - cron: "0 6 * * 1"
+    - cron: "0 6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -29,5 +29,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add perfil
-          git diff --cached --quiet || git commit -m "Atualiza o cabeçalho do perfil"
+          git diff --cached --quiet || git commit -m "Atualiza os painéis do perfil"
           git push

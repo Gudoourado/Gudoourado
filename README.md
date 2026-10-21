@@ -1,10 +1,15 @@
-<img src="./perfil/cabecalho.svg" width="100%" alt="Gustavo Dourado, desenvolvedor full stack com foco em back-end: TypeScript, NestJS, Angular e PostgreSQL. Disponível para São Paulo (híbrido) ou remoto." />
+<img src="./perfil/cabecalho.svg" width="100%" alt="Gustavo Dourado, desenvolvedor full stack com foco em back-end: TypeScript, NestJS, Angular e PostgreSQL" />
 
-Desenvolvo sistemas web de ponta a ponta, do banco de dados à interface, com foco no back-end: APIs, modelagem de dados e integrações. No estágio, a maior parte do código fica em repositórios privados da empresa; abaixo estão os projetos públicos que mostram como eu trabalho.
+**Disponível para vagas full stack ou back-end em São Paulo (híbrido) ou remotas.** Desenvolvo sistemas web de ponta a ponta, do banco de dados à interface, com foco no back-end: APIs, modelagem de dados e integrações. No estágio, a maior parte do código fica em repositórios privados da empresa; abaixo estão os projetos públicos que mostram como eu trabalho.
 
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-com%20assistente%20de%20IA-58a6ff?style=flat-square&labelColor=161b22)](https://gustavo-dourado.gustavoaureliodev.workers.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gustavodoourado-0a66c2?style=flat-square&logo=linkedin&logoColor=white&labelColor=161b22)](https://www.linkedin.com/in/gustavodoourado/)
 [![E-mail](https://img.shields.io/badge/E--mail-gustavoaureliodev%40gmail.com-8b949e?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22)](mailto:gustavoaureliodev@gmail.com)
+
+<img src="./perfil/cidade.svg" width="100%" alt="A cidade que construí este ano: contribuições públicas no GitHub nos últimos 12 meses" />
+
+<img src="./perfil/linguagens.svg" width="49%" alt="Linguagens nos repositórios públicos" />
+<img src="./perfil/projetos.svg" width="49%" alt="Projetos em destaque: financeiro-rls, agente-volta-zero, cerebro-avaliacao e personal-finance-api" />
 
 ## Projetos selecionados
 

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-label="">
+  <defs>
+    <linearGradient id="grama" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7cc96c"/>
+      <stop offset="1" stop-color="#3f9a4c"/>
+    </linearGradient>
+    <style>
+      .flor { transform-box: fill-box; transform-origin: bottom center; animation: balança 3.2s ease-in-out infinite; }
+      @keyframes balança { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+      @media (prefers-reduced-motion: reduce) { .flor { animation: none; } }
+    </style>
+  </defs>
+  <path d="M0 50 C 150 30, 300 60, 450 46 S 750 28, 900 44 S 1100 56, 1200 40 L1200 110 L0 110 Z" fill="url(#grama)"/>
+  <path d="M0 78 C 200 62, 420 84, 640 72 S 1000 64, 1200 76 L1200 110 L0 110 Z" fill="#2f7d3f" opacity="0.55"/>
+  <g class="flor"><rect x="138" y="30" width="2" height="22" fill="#2f7d3f"/><circle cx="139" cy="28" r="6" fill="#ffffff"/><circle cx="139" cy="28" r="2.5" fill="#f5c542"/></g>
+  <g class="flor" style="animation-delay:-1s"><rect x="402" y="34" width="2" height="18" fill="#2f7d3f"/><circle cx="403" cy="32" r="5" fill="#ffd1dc"/><circle cx="403" cy="32" r="2" fill="#f5c542"/></g>
+  <g class="flor" style="animation-delay:-2s"><rect x="720" y="24" width="2" height="22" fill="#2f7d3f"/><circle cx="721" cy="22" r="6" fill="#fff4b0"/><circle cx="721" cy="22" r="2.5" fill="#f59e42"/></g>
+  <g class="flor" style="animation-delay:-0.5s"><rect x="1020" y="30" width="2" height="20" fill="#2f7d3f"/><circle cx="1021" cy="28" r="5.5" fill="#ffffff"/><circle cx="1021" cy="28" r="2.2" fill="#f5c542"/></g>
+</svg>

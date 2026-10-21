@@ -6,10 +6,13 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gustavodoourado-0a66c2?style=flat-square&logo=linkedin&logoColor=white&labelColor=161b22)](https://www.linkedin.com/in/gustavodoourado/)
 [![E-mail](https://img.shields.io/badge/E--mail-gustavoaureliodev%40gmail.com-8b949e?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22)](mailto:gustavoaureliodev@gmail.com)
 
-<img src="./perfil/cidade.svg" width="100%" alt="A cidade que construí este ano: contribuições públicas no GitHub nos últimos 12 meses" />
+## Experiência
 
-<img src="./perfil/linguagens.svg" width="49%" alt="Linguagens nos repositórios públicos" />
-<img src="./perfil/projetos.svg" width="49%" alt="Projetos em destaque: financeiro-rls, agente-volta-zero, cerebro-avaliacao e personal-finance-api" />
+**Sunter Tecnologia** · Desenvolvedor full stack (estágio) · desde abril de 2026<br/>
+Atuo no desenvolvimento de ponta a ponta de sistemas internos e para clientes, incluindo CRM, pesquisas NPS automatizadas, SSO e agentes de IA. Trabalho com NestJS, Angular, PostgreSQL, Prisma, Redis e Docker. *Código privado da empresa.*
+
+**Freelancer** · Desenvolvedor full stack · desde agosto de 2026<br/>
+Sistemas full stack para outros clientes, em paralelo ao estágio.
 
 ## Projetos selecionados
 
@@ -21,13 +24,9 @@
 | **[cerebro-avaliacao](https://github.com/Gudoourado/cerebro-avaliacao)** | JavaScript · Node.js | Como avaliar uma busca BM25+ com casos sintéticos, piso de score e resultado caso a caso. |
 | **APIs Java** · [finanças](https://github.com/Gudoourado/personal-finance-api) · [filmes](https://github.com/Gudoourado/movie-catalog-api) · [contatos](https://github.com/Gudoourado/contact-manager-api) | Java 17 · Spring Boot 3 · GitHub Actions | Erros tratados de forma consistente, testes automatizados e CI em Java 17 e 21. |
 
-## Experiência
+<img src="./perfil/projetos.svg" width="100%" alt="Projetos em destaque: financeiro-rls, agente-volta-zero, cerebro-avaliacao e personal-finance-api" />
 
-**Sunter Tecnologia** · Desenvolvedor full stack (estágio) · desde abril de 2026<br/>
-Desenvolvo sozinho, do banco de dados à interface, sistemas internos e para clientes: CRM, pesquisa NPS com envio automático, login único (SSO) e agentes de IA. TypeScript com NestJS, Prisma e PostgreSQL no back-end, Angular no front-end, Redis e Docker. *Código privado da empresa.*
-
-**Freelancer** · Desenvolvedor full stack · desde agosto de 2026<br/>
-Sistemas full stack para outros clientes, em paralelo ao estágio.
+<img src="./perfil/cidade.svg" width="100%" alt="A cidade que construí este ano: contribuições públicas no GitHub nos últimos 12 meses" />
 
 ## Stack
 

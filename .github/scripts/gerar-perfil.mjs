@@ -84,18 +84,18 @@ function gato(x, y) {
 async function cabecalho(u, contribuicoes, estrelas) {
   const W = 1200, H = 470
   const px = 70, py = 120, pw = 1060, ph = 280
-  const numeros = [['Repositórios', u.repositories.totalCount], ['Estrelas', estrelas], ['Contribuições', contribuicoes], ['Seguidores', u.followers.totalCount]]
+  const numeros = [['Repos públicos', u.repositories.totalCount], ['Estrelas', estrelas], ['Contribuições', contribuicoes], ['Seguidores', u.followers.totalCount]]
   let chips = '', cx = px + 290
   for (const e of ETIQUETAS) {
     const w = e.length * 9.6 + 26
     chips += `<rect x="${cx}" y="${py + 192}" width="${w}" height="30" rx="15" fill="#12324a" stroke="${C.borda}"/><text x="${cx + w / 2}" y="${py + 212}" fill="${C.texto}" font-family="${FONTE}" font-size="14" text-anchor="middle">${esc(e)}</text>`
     cx += w + 10
   }
-  const stats = numeros.map(([r, v], i) => `<text x="${px + 790}" y="${py + 92 + i * 40}" fill="${C.apagado}" font-family="${FONTE}" font-size="15">${esc(r)}</text><text x="${px + 1020}" y="${py + 92 + i * 40}" fill="${C.neon}" font-family="${FONTE}" font-size="20" font-weight="700" text-anchor="end">${v}</text>`).join('')
+  const stats = numeros.map(([r, v], i) => `<text x="${px + 790}" y="${py + 92 + i * 40}" fill="${C.apagado}" font-family="${FONTE}" font-size="15">${esc(r)}</text><text x="${px + 1020}" y="${py + 92 + i * 40}" fill="#cbd5e1" font-family="${FONTE}" font-size="18" font-weight="600" text-anchor="end">${v}</text>`).join('')
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(NOME)}, ${esc(CARGO)}">${estilo}
   ${cena(W, H, 400)}
   ${gato(260, py - 6)}
-  ${painel(px, py, pw, ph, 'README.md', `@${LOGIN}`)}
+  ${painel(px, py, pw, ph, 'gustavo@github:~', `@${LOGIN}`)}
   <ellipse cx="226" cy="${py + 2}" rx="13" ry="8" fill="#111"/><ellipse cx="294" cy="${py + 2}" rx="13" ry="8" fill="#111"/>
   <rect x="${px + 30}" y="${py + 64}" width="196" height="196" rx="10" fill="#12324a" stroke="${C.neon}" stroke-width="2"/>
   ${await avatarPixelado(u.avatarUrl, px + 38, py + 72, 180)}
@@ -138,7 +138,7 @@ function cidade(dias, total) {
   <text x="40" y="168" fill="${C.neon}" font-family="${FONTE}" font-size="58" font-weight="700">${total}</text>
   <text x="40" y="214" fill="${C.texto}" font-family="${FONTE}" font-size="16">${ativos} dias ativos</text>
   <text x="40" y="244" fill="${C.texto}" font-family="${FONTE}" font-size="16">melhor dia: ${melhor.contributionCount} em ${data(melhor.date)}</text>
-  <text x="40" y="390" fill="${C.apagado}" font-family="${FONTE}" font-size="13">o trabalho do estágio fica em repositórios privados</text>
+  <text x="40" y="390" fill="${C.apagado}" font-family="${FONTE}" font-size="13">só contribuições públicas; o trabalho profissional fica em repositórios privados · atualizado diariamente</text>
   ${s}
 </svg>`
 }
@@ -148,7 +148,7 @@ function linguagens(repos) {
   for (const r of repos) for (const e of r.languages.edges) soma.set(e.node.name, { b: (soma.get(e.node.name)?.b ?? 0) + e.size, cor: e.node.color ?? C.neon })
   const total = [...soma.values()].reduce((a, v) => a + v.b, 0) || 1
   const top = [...soma.entries()].sort((p, q) => q[1].b - p[1].b).slice(0, 6)
-  const W = 590, H = 320
+  const W = 590, H = 340
   const linhas = top.map(([n, v], i) => {
     const pct = (v.b / total) * 100, y = 82 + i * 38
     return `<circle cx="34" cy="${y - 5}" r="6" fill="${v.cor}"/><text x="50" y="${y}" fill="${C.texto}" font-family="${FONTE}" font-size="15">${esc(n)}</text>
@@ -156,11 +156,11 @@ function linguagens(repos) {
       <text x="${W - 26}" y="${y}" fill="${C.apagado}" font-family="${FONTE}" font-size="14" text-anchor="end">${pct.toFixed(0)}%</text>`
   }).join('')
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Linguagens nos repositórios públicos">${estilo}
-  ${painel(0, 0, W, H, 'Linguagens', 'repos públicos')}${linhas}</svg>`
+  ${painel(0, 0, W, H, 'Linguagens nos repositórios públicos')}${linhas}<text x="30" y="318" fill="${C.apagado}" font-family="${FONTE}" font-size="12">distribuição do código publicado, não da experiência profissional</text></svg>`
 }
 
 function projetos(repos) {
-  const W = 590, H = 320
+  const W = 590, H = 340
   const lista = DESTAQUES.map((n) => repos.find((r) => r.name === n)).filter(Boolean)
   const quebra = (t, n) => { const p = String(t ?? '').split(' '); const l = ['']; for (const w of p) { if ((l.at(-1) + ' ' + w).trim().length > n) l.push(w); else l[l.length - 1] = (l.at(-1) + ' ' + w).trim() } return l.length > 2 ? [l[0], l[1].replace(/[,.;:]?$/, '…')] : l }
   const cards = lista.map((r, k) => {

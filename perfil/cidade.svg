@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-label="52 contribuições públicas nos últimos 12 meses"><style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-label="53 contribuições públicas nos últimos 12 meses"><style>
   .nuvem { animation: vai 80s linear infinite; } @keyframes vai { from { transform: translateX(-300px); } to { transform: translateX(1500px); } }
   .olho { animation: pisca 5s infinite; transform-box: fill-box; transform-origin: center; } @keyframes pisca { 0%, 93%, 100% { transform: scaleY(1); } 96% { transform: scaleY(0.1); } }
   .cursor { animation: cur 1s steps(1) infinite; } @keyframes cur { 50% { opacity: 0; } }
@@ -12,10 +12,10 @@
   <text x="1180" y="27" fill="#93b8a8" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="13" text-anchor="end">~/contribuicoes</text>
   <line x1="0" y1="42" x2="1200" y2="42" stroke="#24506a" stroke-width="1"/>
   <text x="40" y="110" fill="#93b8a8" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="15">CONTRIBUIÇÕES PÚBLICAS</text>
-  <text x="40" y="168" fill="#4ade80" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="58" font-weight="700">52</text>
+  <text x="40" y="168" fill="#4ade80" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="58" font-weight="700">53</text>
   <text x="40" y="214" fill="#e8f5ee" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="16">7 dias ativos</text>
   <text x="40" y="244" fill="#e8f5ee" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="16">melhor dia: 17 em 29 de set.</text>
-  <text x="40" y="390" fill="#93b8a8" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="13">o trabalho do estágio fica em repositórios privados</text>
+  <text x="40" y="390" fill="#93b8a8" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="13">só contribuições públicas; o trabalho profissional fica em repositórios privados · atualizado diariamente</text>
   <g>
       <path d="M591 118 L600 122.6 L600 124.6 L591 120 Z" fill="rgb(16,36,53)"/>
       <path d="M600 122.6 L609 118 L609 120 L600 124.6 Z" fill="rgb(11,26,38)"/>
@@ -449,9 +449,9 @@
       <path d="M744 223.8 L753 228.4 L753 230.4 L744 225.8 Z" fill="rgb(16,36,53)"/>
       <path d="M753 228.4 L762 223.8 L762 225.8 L753 230.4 Z" fill="rgb(11,26,38)"/>
       <path d="M753 219.20000000000002 L762 223.8 L753 228.4 L744 223.8 Z" fill="#16324a"/></g><g class="sobe">
-      <path d="M762 170.74117647058824 L771 175.34117647058824 L771 230.4 L762 225.8 Z" fill="rgb(53,160,92)"/>
-      <path d="M771 175.34117647058824 L780 170.74117647058824 L780 225.8 L771 230.4 Z" fill="rgb(38,115,67)"/>
-      <path d="M771 166.14117647058825 L780 170.74117647058824 L771 175.34117647058824 L762 170.74117647058824 Z" fill="#4ade80"/></g><g>
+      <path d="M762 166.03529411764708 L771 170.63529411764708 L771 230.4 L762 225.8 Z" fill="rgb(53,160,92)"/>
+      <path d="M771 170.63529411764708 L780 166.03529411764708 L780 225.8 L771 230.4 Z" fill="rgb(38,115,67)"/>
+      <path d="M771 161.4352941176471 L780 166.03529411764708 L771 170.63529411764708 L762 166.03529411764708 Z" fill="#4ade80"/></g><g>
       <path d="M780 223.8 L789 228.4 L789 230.4 L780 225.8 Z" fill="rgb(16,36,53)"/>
       <path d="M789 228.4 L798 223.8 L798 225.8 L789 230.4 Z" fill="rgb(11,26,38)"/>
       <path d="M789 219.20000000000002 L798 223.8 L789 228.4 L780 223.8 Z" fill="#16324a"/></g><g>
@@ -467,9 +467,9 @@
       <path d="M735 228.39999999999998 L744 232.99999999999997 L744 234.99999999999997 L735 230.39999999999998 Z" fill="rgb(16,36,53)"/>
       <path d="M744 232.99999999999997 L753 228.39999999999998 L753 230.39999999999998 L744 234.99999999999997 Z" fill="rgb(11,26,38)"/>
       <path d="M744 223.79999999999998 L753 228.39999999999998 L744 232.99999999999997 L735 228.39999999999998 Z" fill="#16324a"/></g><g class="sobe">
-      <path d="M753 184.75294117647056 L762 189.35294117647055 L762 234.99999999999997 L753 230.39999999999998 Z" fill="rgb(34,125,68)"/>
-      <path d="M762 189.35294117647055 L771 184.75294117647056 L771 230.39999999999998 L762 234.99999999999997 Z" fill="rgb(24,90,49)"/>
-      <path d="M762 180.15294117647056 L771 184.75294117647056 L762 189.35294117647055 L753 184.75294117647056 Z" fill="#2fae5f"/></g><g>
+      <path d="M753 189.45882352941175 L762 194.05882352941174 L762 234.99999999999997 L753 230.39999999999998 Z" fill="rgb(34,125,68)"/>
+      <path d="M762 194.05882352941174 L771 189.45882352941175 L771 230.39999999999998 L762 234.99999999999997 Z" fill="rgb(24,90,49)"/>
+      <path d="M762 184.85882352941175 L771 189.45882352941175 L762 194.05882352941174 L753 189.45882352941175 Z" fill="#2fae5f"/></g><g>
       <path d="M771 228.39999999999998 L780 232.99999999999997 L780 234.99999999999997 L771 230.39999999999998 Z" fill="rgb(16,36,53)"/>
       <path d="M780 232.99999999999997 L789 228.39999999999998 L789 230.39999999999998 L780 234.99999999999997 Z" fill="rgb(11,26,38)"/>
       <path d="M780 223.79999999999998 L789 228.39999999999998 L780 232.99999999999997 L771 228.39999999999998 Z" fill="#16324a"/></g><g>
@@ -1109,9 +1109,9 @@
       <path d="M1014 371 L1023 375.6 L1023 377.6 L1014 373 Z" fill="rgb(16,36,53)"/>
       <path d="M1023 375.6 L1032 371 L1032 373 L1023 377.6 Z" fill="rgb(11,26,38)"/>
       <path d="M1023 366.4 L1032 371 L1023 375.6 L1014 371 Z" fill="#16324a"/></g><g class="sobe">
-      <path d="M1032 350.88235294117646 L1041 355.4823529411765 L1041 377.6 L1032 373 Z" fill="rgb(22,88,53)"/>
-      <path d="M1041 355.4823529411765 L1050 350.88235294117646 L1050 373 L1041 377.6 Z" fill="rgb(16,63,38)"/>
-      <path d="M1041 346.28235294117644 L1050 350.88235294117646 L1041 355.4823529411765 L1032 350.88235294117646 Z" fill="#1f7a4a"/></g><g>
+      <path d="M1032 346.1764705882353 L1041 350.7764705882353 L1041 377.6 L1032 373 Z" fill="rgb(22,88,53)"/>
+      <path d="M1041 350.7764705882353 L1050 346.1764705882353 L1050 373 L1041 377.6 Z" fill="rgb(16,63,38)"/>
+      <path d="M1041 341.5764705882353 L1050 346.1764705882353 L1041 350.7764705882353 L1032 346.1764705882353 Z" fill="#1f7a4a"/></g><g>
       <path d="M987 375.59999999999997 L996 380.2 L996 382.2 L987 377.59999999999997 Z" fill="rgb(16,36,53)"/>
       <path d="M996 380.2 L1005 375.59999999999997 L1005 377.59999999999997 L996 382.2 Z" fill="rgb(11,26,38)"/>
       <path d="M996 370.99999999999994 L1005 375.59999999999997 L996 380.2 L987 375.59999999999997 Z" fill="#16324a"/></g><g>

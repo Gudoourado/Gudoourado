@@ -4,8 +4,8 @@
 
 <a href="https://gustavo-dourado.gustavoaureliodev.workers.dev/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3200&pause=900&color=4ADE80&center=true&vCenter=true&width=640&lines=Sistemas+de+ponta+a+ponta%2C+do+banco+%C3%A0+tela;Agentes+de+IA+que+passam+para+um+humano+na+hora+certa;Aberto+a+vagas+em+S%C3%A3o+Paulo+(h%C3%ADbrido)+ou+remotas" />
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3200&pause=900&color=1F7A4A&center=true&vCenter=true&width=640&lines=Sistemas+de+ponta+a+ponta%2C+do+banco+%C3%A0+tela;Agentes+de+IA+que+passam+para+um+humano+na+hora+certa;Aberto+a+vagas+em+S%C3%A3o+Paulo+(h%C3%ADbrido)+ou+remotas" alt="Sistemas de ponta a ponta, do banco à tela" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=2500&color=4ADE80&center=true&vCenter=true&width=640&lines=Sistemas+de+ponta+a+ponta%2C+do+banco+%C3%A0+tela;Agentes+de+IA+que+passam+para+um+humano+na+hora+certa;Dispon%C3%ADvel+para+S%C3%A3o+Paulo+(h%C3%ADbrido)+ou+remoto" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=2500&color=1F7A4A&center=true&vCenter=true&width=640&lines=Sistemas+de+ponta+a+ponta%2C+do+banco+%C3%A0+tela;Agentes+de+IA+que+passam+para+um+humano+na+hora+certa;Dispon%C3%ADvel+para+S%C3%A3o+Paulo+(h%C3%ADbrido)+ou+remoto" alt="Sistemas de ponta a ponta, do banco à tela" />
   </picture>
 </a>
 
@@ -15,8 +15,8 @@
   <a href="mailto:gustavoaureliodev@gmail.com"><img src="https://img.shields.io/badge/E--mail-fale%20comigo-5fb4e8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1b2a" alt="E-mail" /></a>
 </p>
 
-**Estágio full stack na Sunter Tecnologia** (CRM, pesquisa NPS com envio automático, login único e agentes de IA) **e freelancer**<br/>
-Aberto a vagas full stack ou back-end · São Paulo (híbrido) ou remoto · moro em Salvador, BA
+No estágio na **Sunter Tecnologia**, desenvolvo CRM, pesquisas NPS com envio automático, login único (SSO) e agentes de IA. Também atuo como freelancer.<br/>
+Busco vagas full stack ou back-end, híbridas em São Paulo ou remotas. Moro em Salvador, BA, com disponibilidade para mudança.
 
 <img src="./perfil/cidade.svg" width="100%" alt="A cidade que construí este ano: contribuições públicas no GitHub nos últimos 12 meses" />
 
